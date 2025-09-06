@@ -5,6 +5,7 @@ namespace Ucu.Poo.GameOfLife
     {
         static void Main(string[] args)
         {
+            
             BoardReader reader = new BoardReader();
             bool[,] boardfile = reader.LoadFromFiles("board.txt");
             
