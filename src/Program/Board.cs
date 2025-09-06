@@ -1,6 +1,8 @@
 /*
  Esta clase lo que hace es representar directamente el tablero, contando el largo y ancho del tablero y si las células 
  están vivas o muertas, guardando estos valores únicamente para usarlos después en otras partes del programa.
+ Cumple con el SRP porque tiene una única responsabilidad que es modelar el tablero. 
+ Y el Expert porque es la clase que tiene todos los datos importantes o necesarios para el resto de clases. 
 */
 using System.Diagnostics;
 
